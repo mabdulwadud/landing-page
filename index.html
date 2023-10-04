@@ -4,65 +4,105 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>H+ Health | Welcome</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>H+ Health | Welcome</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
 
-    <!-- Styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/d685db330b.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <!--[if lt IE 7]>
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/d685db330b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--[if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <nav class="navbar navbar-expand-lg bg-body-transparent">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/icons/hplus-logo.svg" alt="Logo" width="35"class="d-inline-block align-text-middle">
-                Health Company
-              </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg bg-body-transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/icons/hplus-logo.svg" alt="Logo" width="35" class="d-inline-block align-text-middle">
+        Health Company
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <button class="button-link sign-in  .hvr-sweep-to-right me-2">
+            <a class="nav-link " aria-current="page" href="#">Log In</a>
           </button>
-          <div class="collapse navbar-collapse d-flex justify-content-end"  id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-            </ul>
+          <li class="nav-item ms-2">
+            <a class="nav-link" href="#">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container-fluid">
+    <section class="hero">
+      <div class="row">
+        <div class="hero-text col-lg-6">
+          <h1 class="header-lg">Elevate Your Health with H Plus</h1>
+          <p class="header-md">An advanced and personalized heatlh companion</p>
+          <button class="button button-primary"><a href="#">Get Started</a></button>
+          <button class="button button-tertiary ms-3"><a href="#info">Learn More</a></button>
+        </div>
+        <div class="hero-image col-lg-6"></div>
+      </div>
+    </section>
+    <section class="info" id="info">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="header-md-primary">Your Personalized Wellness Companion</h1>
+          <p>Are you ready to take charge of your health and embark on a journey to a happier, healthier you? Look no
+            further than
+            "H Plus." We've combined cutting-edge technology with the latest advancements in health and wellness to
+            bring you a
+            holistic, personalized solution that's designed just for you.</p>
+        </div>
+        <div class="col-lg-6 " id="info-image">
+          <img src="img/pics/gabin-vallet-YxCrQm9XNgg-unsplash.jpg" alt="">
+        </div>
+      </div>
+    </section>
+      <section class="features d-flex align-items-center" id="features">
+        <div class="row ">
+          <div class="col-lg-6" id="features-image">
+            <img src="img/pics/towfiqu-barbhuiya-w8p9cQDLX7I-unsplash.jpg" alt="">
+          </div>
+          <div class="col-lg-6 text-end">
+            <h1 class="header-md-primary">What is H Plus</h1>
+            <p>"H Plus Health Companion" is not just another health app or wearable. It's your dedicated partner on your
+              path to optimal well-being. Whether you're striving to achieve fitness goals, manage a chronic condition, or
+              simply want to lead a healthier lifestyle, "H Plus" is here to guide and support you every step of the way.
+            </p>
           </div>
         </div>
-      </nav>
-    <main class="container-fluid">
-      <section class="hero"></section>
-      <section class="info"></section>
-      <section class="features"></section>
-      <section class="testimonials"></section>
-      <section class="prices"></section>
-      <section class="call-to-action"></section>
-    </main>
-    <footer></footer>
+      </section>
+   
+    <section class="testimonials" id="testimonials"></section>
+    <section class="prices" id="prices"></section>
+    <section class="call-to-action" id="call-to-action"></section>
+  </main>
+  <footer></footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
-  </body>
+</body>
 </html>
